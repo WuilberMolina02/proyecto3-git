@@ -4,8 +4,8 @@ function mostrarEstadisticas(piloto) {
             "Carreras: 5 | Puntos: 120";
     }
  
-    if (piloto === 2) {
-        document.getElementById("estadisticas2").textContent =
-            "Carreras: 7 | Puntos: 180";
-    }
+    if (piloto === 1) {
+    document.getElementById("estadisticas1").textContent =
+        "Carreras: 10 | Puntos: 250";
+}
 }
