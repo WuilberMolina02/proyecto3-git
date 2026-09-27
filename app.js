@@ -9,4 +9,3 @@ function mostrarEstadisticas(piloto) {
             "Carreras: 7 | Puntos: 180";
     }
 }
-}
