@@ -3,78 +3,73 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Animales</title>
+<title>Academia de Pilotos</title>
 <link rel="stylesheet" href="style.css">
 </head>
- 
 <body>
  
     <header>
-<h1>🐾 Mundo Animal</h1>
+<h1>🏁 Academia de Pilotos</h1>
+<p>Entrenamiento, carreras y estadísticas</p>
 </header>
  
     <main>
- 
-        <section class="introduccion">
-<h2>Los animales</h2>
-<p>
-                Los animales son seres vivos que forman parte
-                de nuestro planeta. Existen muchas especies
-                diferentes y cada una tiene características únicas.
-</p>
+<section class="presentacion">
+<h2 id="nombre">Pilotos de la competencia</h2>
+<p>Conoce a los pilotos y revisa sus resultados.</p>
 </section>
  
-        <section>
-<h2>Mis animales favoritos</h2>
+        <section class="pilotos">
  
-            <div class="animales">
+            <article class="card-piloto">
+<h3>🏎️ Piloto 1</h3>
+<p><strong>Equipo:</strong> Velocity Racing</p>
+<p><strong>Especialidad:</strong> Fórmula</p>
  
-                <div class="animal">
-<h3>🐶 Perro</h3>
-<p>
-                        Los perros son animales domésticos,
-                        inteligentes y muy amigables.
-</p>
-</div>
- 
-                <div class="animal">
-<h3>🐱 Gato</h3>
-<p>
-                        Los gatos son animales independientes,
-                        curiosos y excelentes cazadores.
-</p>
-</div>
- 
-                <div class="animal">
-<h3>🦁 León</h3>
-<p>
-                        El león es un felino conocido por
-                        su fuerza y por vivir en grupos.
-</p>
-</div>
- 
-            </div>
-</section>
- 
-        <section class="curiosidad">
-<h2>Dato curioso</h2>
- 
-            <p id="dato">
-                Haz clic en el botón para conocer un dato.
-</p>
- 
-            <button onclick="mostrarDato()">
-                Mostrar dato
+                <button onclick="mostrarEstadisticas(1)">
+                    Ver estadísticas
 </button>
-</section>
  
-    </main>
+                <p id="estadisticas1" class="estadisticas">
+                    Carreras: 5 | Puntos: 120
+</p>
+</article>
+ 
+            <article class="card-piloto">
+<h3>🏎️ Piloto 2</h3>
+<p><strong>Equipo:</strong> Speed Team</p>
+<p><strong>Especialidad:</strong> Rally</p>
+ 
+                <button onclick="mostrarEstadisticas(2)">
+                    Ver estadísticas
+</button>
+ 
+                <p id="estadisticas2" class="estadisticas">
+                    Carreras: 7 | Puntos: 180
+</p>
+</article>
+ 
+        </section>
+ 
+        <section class="carreras">
+<h2>🏆 Próximas carreras</h2>
+ 
+            <div class="carrera">
+<h3>Gran Premio de El Salvador</h3>
+<p>📅 Domingo · 🏁 Circuito Nacional</p>
+</div>
+ 
+            <div class="carrera">
+<h3>Copa de Pilotos</h3>
+<p>📅 Próximo evento · 🏁 Pista Central</p>
+</div>
+</section>
+</main>
  
     <footer>
-<p>🐾 Mundo Animal © 2026</p>
+<p>Academia de Pilotos © 2026</p>
 </footer>
  
     <script src="app.js"></script>
- 
 </body>
 </html>
